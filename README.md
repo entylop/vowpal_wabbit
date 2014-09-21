@@ -32,7 +32,7 @@ make install
 ```
 
 Note that ``./autogen.sh`` requires automake.  On OSX, this implies installing
-'glibtools'. Using brew the command is ``brew install libtool``.
+'glibtools'. Using Homebrew, run ``brew install automake`` and ``brew install libtool``.
 
 Options that were passed to `./configure` in 7.6 and earlier may now be passed
 to `./autogen.sh`.
@@ -40,6 +40,6 @@ to `./autogen.sh`.
 Be sure to read the wiki: https://github.com/JohnLangford/vowpal_wabbit/wiki
 for the tutorial, command line options, etc.  
 
-The 'cluster' directory has it's own documentation for cluster
+The 'cluster' directory has its own documentation for cluster
 parallel use, and the examples at the end of test/Runtests give some
 example flags.
