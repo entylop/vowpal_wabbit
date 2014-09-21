@@ -32,7 +32,7 @@ make install
 ```
 
 Note that ``./autogen.sh`` requires automake.  On OSX, this implies installing
-'glibtools'.
+'glibtools'. Using brew the command is ``brew install libtool``.
 
 Options that were passed to `./configure` in 7.6 and earlier may now be passed
 to `./autogen.sh`.
